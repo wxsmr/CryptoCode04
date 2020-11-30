@@ -1,19 +1,19 @@
 public class GirlFirend {
     String name;
-    int  sge;
+    int  age;
+    //现有数组
+    int[] arr ={9,8,10,23,89,76,45,7,23,41};
 
 
     public void kiss(){
 
     }
     public static void main(String [] args){
-        //System.out.println();
+        //System.out.println(name);
     GirlFirend girl =new GirlFirend();
-    System.out.println();
-    System.out.println();
+    System.out.println(girl.name);
+    System.out.println(girl.age);
     }
-    //现有数组
-    //int[] arr ={9,8,10,23,89,76,45,7,23,41};
 
     /**
      * 写两个方法,分别实现冒泡排序和选择排序，array进行升序排序
@@ -24,3 +24,4 @@ public class GirlFirend {
 
 
 }
+
